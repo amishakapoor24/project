@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+}
+
+#bca-program h2, #sponsors h2, #about-sponsors h2, #location h2, #contact h2 {
+    margin-top: 0;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.sponsor {
+    text-align: center;
+}
+
+.sponsor img {
+    max-width: 150px;
+}
+
+.sponsor-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sponsor-info img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+#map {
+    text-align: center;
+}
+
+.contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-details div {
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
